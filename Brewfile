@@ -1,6 +1,7 @@
 # CLI tools
 brew "git"
 brew "gh"
+brew "pnpm"
 brew "just"
 brew "fzf"
 brew "ripgrep"

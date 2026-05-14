@@ -44,13 +44,6 @@ else
   log "NVM already installed, skipping"
 fi
 
-if ! command -v pnpm >/dev/null 2>&1; then
-  log "Installing pnpm"
-  curl -fsSL https://get.pnpm.io/install.sh | sh
-else
-  log "pnpm already installed, skipping"
-fi
-
 if ! command -v uv >/dev/null 2>&1; then
   log "Installing uv"
   curl -LsSf https://astral.sh/uv/install.sh | sh
