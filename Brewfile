@@ -18,4 +18,4 @@ cask "ghostty"
 cask "docker-desktop"
 cask "postgres-app"
 cask "tableplus"
-
+cask "ghostpepper"
